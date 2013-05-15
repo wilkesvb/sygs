@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "glyphs": [
+    {
+      "search": [
+        "twitter",
+        "social",
+        "logo"
+      ],
+      "code": 64,
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "orig_css": "twitter",
+      "orig_code": 64,
+      "src": "entypo",
+      "from": 62217
+    },
+    {
+      "search": [
+        "facebook",
+        "social",
+        "logo"
+      ],
+      "code": 108,
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "orig_css": "facebook",
+      "orig_code": 108,
+      "src": "entypo",
+      "from": 62220
+    },
+    {
+      "search": [
+        "google",
+        "plus",
+        "social",
+        "logo"
+      ],
+      "code": 43,
+      "uid": "b945f4ac2439565661e8e4878e35d379",
+      "css": "gplus",
+      "orig_css": "gplus",
+      "orig_code": 43,
+      "src": "entypo",
+      "from": 62223
+    }
+  ]
+}

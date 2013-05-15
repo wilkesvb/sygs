@@ -1,0 +1,174 @@
+@import "normalize";
+@import "typography";
+@import "comment-type";
+@import "about";
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	height: auto !important;
+}
+
+.logo {
+		max-width: 522px ;
+		max-height: 681px;
+}
+
+.page-wrap {
+	margin: 25px auto 0px;
+	width: 85%;
+	display: block;
+	position: relative;
+	max-width: 1400px;
+}
+
+.nav-header, .social-header {
+	width: 100%;
+}
+
+.nav-header {
+	text-align: center;
+	margin-top: 2%;
+}
+
+.social-header {
+	text-align: right;
+}
+
+.grid-1-2 {
+	width: 34%;
+	float: left;
+	padding-right: 0%
+}
+
+.grid-2-2 {
+	width: 60%;
+	float: right;
+	padding-left: 4%;
+	margin-bottom: 50px;
+	border-left: 1px dotted black;
+}
+
+.main-content {
+	text-align: center;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sidebar nav {
+	text-align: right;
+}
+
+.sidebar-ad {
+	height: 600px;
+	width: 160px;
+	float: right;
+	background-color: #898989;
+	margin-top: 60px;
+}
+
+.content-ad-top, .content-ad-bottom {
+	float: none;
+	height: 250px;
+	width: 300px;
+	background-color: #898989;
+	margin: 15px auto;
+}
+
+.responsive-ad {
+	height: 240px;
+	width: 120px;
+	float: left;
+	margin-top: 0%;
+	background-color: #898989;
+}
+
+footer {
+	background: black;
+	position: relative;
+	padding: 30px 0px 10px;
+	margin-bottom: -16px;
+}
+
+.copyright, .nav-footer, .theShit {
+	text-align: center;
+}
+
+.social-footer {
+	text-align: right;
+	margin-top: 15px;
+	a {
+		color: #89f6f6;
+	}
+}
+
+.nav-footer {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+// responsive stuff
+
+.display-none {
+	display: none;
+}
+
+
+@media (max-width: 676px) {
+	html {
+		font-size: .7rem;
+	}
+	.page-wrap {
+		width: 95%;
+		margin-top: 12px;
+	}
+	.social a {
+		font-size: 1.45em;
+	}
+  .grid-1-2, .social-header {
+  	display: none;
+  }
+  .grid-2-2 {
+  	width: 100%;
+  	border: none;
+  	padding: 0px;
+  }
+  .display-none {
+  	display: block;
+  }
+  .responsive-header {
+  	width: 100%;
+  	padding: 0px 10px;
+  }
+  .logo { // pre-monetization and ad display
+  	float: right;
+  	// width: 55%;
+  	width: 63%;
+  	// border-right: 1px dotted black;
+  	// padding-right: 3%;
+ 		// margin-right: 3%;
+ 	  font-size: 2.2rem;
+  	margin-bottom: 10px;
+  }
+  .theShit {
+		margin-bottom: 11px;
+		-o-margin-bottom: 5px;
+	}
+  .content-ad-top {
+  	display: none;
+  }
+  .social-footer {
+  	text-align: center;
+  }
+}
+
+.monetize {
+	display: none;
+}
