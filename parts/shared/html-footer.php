@@ -16,6 +16,14 @@
             var src = jQuery(this).attr("src").replace("the-Shit-Logo-hover.png", "the-Shit-Logo.png");
             jQuery(this).attr("src", src);
       });
+      $(".responsive-logo").mouseover(function() { 
+            var src = jQuery(this).attr("src").replace("the-Shit-Logo-responsive.jpg", "the-Shit-Logo-responsive-hover.jpg");
+            jQuery(this).attr("src", src);
+        })
+        .mouseout(function() {
+            var src = jQuery(this).attr("src").replace("the-Shit-Logo-responsive-hover.jpg", "the-Shit-Logo-responsive.jpg");
+            jQuery(this).attr("src", src);
+      });
  		});
   </script>
 

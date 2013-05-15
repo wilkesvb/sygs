@@ -125,7 +125,7 @@ footer {
 
 // responsive stuff
 
-.display-none {
+.responsive-logo {
 	display: none;
 }
 
@@ -137,6 +137,13 @@ footer {
 	.page-wrap {
 		width: 95%;
 		margin-top: 12px;
+	}
+	.logo {
+		display: none;
+	}
+	.responsive-logo {
+		display: block;
+		width: 100%;
 	}
 	.social a {
 		font-size: 1.45em;
